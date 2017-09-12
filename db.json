@@ -1,17 +1,8 @@
 {
   "posts": [
-    {
-      "data": [
-        {
-          "type": "dream_destinations",
-          "id": "London, Uk",
-          "attributes": {
-            "location": "London, Uk",
-            "created": "2017-09-12T16:06:54.254Z"
-          }
-        }
-      ]
-    }
+    { "id": 1, "item": "London, Uk", "postId": 1 },
+    { "id": 2, "item": "Paris, France", "postId": 2 }
+
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
