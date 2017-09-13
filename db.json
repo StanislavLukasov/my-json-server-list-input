@@ -10,5 +10,15 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "dream_destinations": {
+    "data": {
+      "type": "dream_destinations",
+      "id": "string",
+      "attributes": {
+        "location": "string",
+        "created": "2017-09-13T13:56:53.572Z"
+      }
+    }
   }
 }
