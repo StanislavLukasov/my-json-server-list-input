@@ -28,7 +28,8 @@
       "attributes": {
         "locations": [
           { "id": 1, "location": "London, UK" },
-          { "id": 2, "location": "Paris, France" }
+          { "id": 2, "location": "Paris, France" },
+          { "id": 3, "location": "Covent Garden, Greater London, England, United Kingdom" }
         ],
         "created": "2017-09-13T13:56:53.572Z"
       }
