@@ -20,5 +20,18 @@
         "created": "2017-09-13T13:56:53.572Z"
       }
     }
+  },
+  "get_dream_destinations": {
+    "data": {
+      "type": "dream_destinations",
+      "id": "string",
+      "attributes": {
+        "locations": "[
+          { "id": 1, "location": "London, UK" },
+          { "id": 2, "location": "Paris, France" }
+        ]",
+        "created": "2017-09-13T13:56:53.572Z"
+      }
+    }
   }
 }
