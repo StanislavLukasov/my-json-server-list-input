@@ -1,9 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "item": "London, Uk", "postId": 1 },
-    { "id": 2, "item": "Paris, France", "postId": 2 }
-
-  ],
   "dream_destinations": {
     "data": {
       "type": "dream_destinations",
