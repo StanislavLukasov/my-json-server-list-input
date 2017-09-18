@@ -4,7 +4,7 @@
       "type": "dream_destinations",
       "id": "string",
       "attributes": {
-        "location": "string",
+        "location": { "id": 4, "name": "Kingston, Jamaica" },
         "created": "2017-09-13T13:56:53.572Z"
       }
     }
