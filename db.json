@@ -34,5 +34,17 @@
         }
       }
     ]
+  },
+  "open_travel_anywhere": {
+    "data": [
+      {
+        "type": "customers",
+        "id": "346",
+        "attributes": {
+          "open_travel_anywhere": true,
+          "created": "2017-09-15T12:13:16.592Z"
+        }
+      }
+    ]
   }
 }
