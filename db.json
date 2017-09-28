@@ -1,9 +1,17 @@
 {
 	"dream_destinations": {
 		"data": {
-			"id": "Address_London",
+			"id": "118",
 			"attributes": {
 				"typed_address": "London"
+			},
+			"relationships": {
+			    "locations": {
+				"data": {
+				    "type": "locations",
+				    "id": "Address_London"
+				}
+			    }
 			}
 		},
 		"included": [{
