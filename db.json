@@ -62,7 +62,7 @@
         "type": "customers",
         "id": "346",
         "attributes": {
-          "open_travel_anywhere": true,
+          "open_travel_anywhere": true
         }
       }
     ]
