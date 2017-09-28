@@ -5,12 +5,10 @@
         "id": "Address_London",
         "attributes": {
             "typed_address": "London",
-            "created": "2017-09-28 09:38:17"
         },
         "relationships": {
             "locations": {
                 "data": {
-                    "type": "locations",
                     "id": "Address_London"
                 }
             }
@@ -26,28 +24,10 @@
                 "canonical_url": "London, United Kingdom",
                 "country": "GB",
                 "coordinates": {
-                    "lat": 51.5073509,
-                    "lon": -0.1277583
                 },
                 "viewport": {
-                    "northeast": {
-                        "lat": 51.6723432,
-                        "lng": 0.148271
-                    },
-                    "southwest": {
-                        "lat": 51.38494009999999,
-                        "lng": -0.3514683
-                    }
                 },
                 "bounds": {
-                    "northeast": {
-                        "lat": 51.6723432,
-                        "lng": 0.148271
-                    },
-                    "southwest": {
-                        "lat": 51.38494009999999,
-                        "lng": -0.3514683
-                    }
                 }
             }
         }
@@ -60,12 +40,10 @@
               "id": "Address_leeds",
               "attributes": {
                   "typed_address": "leeds",
-                  "created": "2017-09-27 12:06:33"
               },
               "relationships": {
                   "locations": {
                       "data": {
-                          "type": "locations",
                           "id": "Address_leeds"
                       }
                   }
@@ -82,28 +60,10 @@
                   "canonical_url": "Leeds--England--United-Kingdom",
                   "country": "GB",
                   "coordinates": {
-                      "lat": 53.8007554,
-                      "lon": -1.5490774
                   },
                   "viewport": {
-                      "northeast": {
-                          "lat": 53.8812021,
-                          "lng": -1.3973731
-                      },
-                      "southwest": {
-                          "lat": 53.7308029,
-                          "lng": -1.6740915
-                      }
                   },
                   "bounds": {
-                      "northeast": {
-                          "lat": 53.8812021,
-                          "lng": -1.3973731
-                      },
-                      "southwest": {
-                          "lat": 53.7308029,
-                          "lng": -1.6740915
-                      }
                   }
               }
           },
@@ -120,7 +80,6 @@
         "relationships": {
             "locations": {
                 "data": {
-                    "type": "locations",
                     "id": "Address_London"
                 }
             }
@@ -136,27 +95,17 @@
                 "canonical_url": "London--England--United-Kingdom",
                 "country": "GB",
                 "coordinates": {
-                    "lat": 51.5073509,
-                    "lon": -0.1277583
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 51.6723432,
-                        "lng": 0.148271
                     },
                     "southwest": {
-                        "lat": 51.38494009999999,
-                        "lng": -0.3514683
                     }
                 },
                 "bounds": {
                     "northeast": {
-                        "lat": 51.6723432,
-                        "lng": 0.148271
                     },
                     "southwest": {
-                        "lat": 51.38494009999999,
-                        "lng": -0.3514683
                     }
                 }
             }
@@ -170,7 +119,6 @@
         "id": "346",
         "attributes": {
           "open_travel_anywhere": true,
-          "created": "2017-09-15T12:13:16.592Z"
         }
       }
     ]
