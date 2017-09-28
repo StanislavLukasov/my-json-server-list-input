@@ -1,70 +1,60 @@
 {
-  "dream_destinations": {
-    "data": {
-        "id": "Address_London",
-        "attributes": {
-            "typed_address": "London",
-        }
-    },
-    "included": [
-        {
-            "type": "locations",
-            "id": "Address_London",
-            "attributes": {
-                "canonical_address": "London, UK",
-                "canonical_url": "London, United Kingdom"
-            }
-        }
-    ]
-  },
-  "get_dream_destinations": {
-      "data": [
-          {
-              "id": "Address_leeds",
-              "attributes": {
-                  "typed_address": "leeds",
-              },
-          },
-      ],
-      "included": [
-          {
-              "id": "Address_leeds",
-              "attributes": {
-                  "canonical_address": "Leeds, United Kingdom",
-                  "canonical_url": "Leeds--England--United-Kingdom",
-              }
-          },
-      ]
-  },
-  "delete_dream_destinations": {
-    "data": {
-        "type": "dream_destinations",
-        "id": "Address_London",
-        "attributes": {
-            "typed_address": "London",
-        },
-    },
-    "included": [
-        {
-            "type": "locations",
-            "id": "Address_London",
-            "attributes": {
-                "formatted_address": "London, UK",
-                "canonical_address": "London, United Kingdom",
-                "canonical_url": "London--England--United-Kingdom",
-            }
-        }
-    ]
-  },
-  "open_travel_anywhere": {
-    "data": [
-      {
-        "type": "customers",
-        "id": "346",
-        "attributes": {
-          "open_travel_anywhere": true
-        }
-      }
-    ]
-  }
+	"dream_destinations": {
+		"data": {
+			"id": "Address_London",
+			"attributes": {
+				"typed_address": "London"
+			}
+		},
+		"included": [{
+			"type": "locations",
+			"id": "Address_London",
+			"attributes": {
+				"canonical_address": "London, UK",
+				"canonical_url": "London, United Kingdom"
+			}
+		}]
+	},
+	"get_dream_destinations": {
+		"data": [{
+			"id": "Address_leeds",
+			"attributes": {
+				"typed_address": "leeds"
+			}
+		}],
+		"included": [{
+			"id": "Address_leeds",
+			"attributes": {
+				"canonical_address": "Leeds, United Kingdom",
+				"canonical_url": "Leeds--England--United-Kingdom"
+			}
+		}]
+	},
+	"delete_dream_destinations": {
+		"data": {
+			"type": "dream_destinations",
+			"id": "Address_London",
+			"attributes": {
+				"typed_address": "London"
+			}
+		},
+		"included": [{
+			"type": "locations",
+			"id": "Address_London",
+			"attributes": {
+				"formatted_address": "London, UK",
+				"canonical_address": "London, United Kingdom",
+				"canonical_url": "London--England--United-Kingdom"
+			}
+		}]
+	},
+	"open_travel_anywhere": {
+		"data": [{
+			"type": "customers",
+			"id": "346",
+			"attributes": {
+				"open_travel_anywhere": true
+			}
+		}]
+	}
 }
