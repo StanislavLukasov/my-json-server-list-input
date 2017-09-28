@@ -1,17 +1,9 @@
 {
   "dream_destinations": {
     "data": {
-        "type": "dream_destinations",
         "id": "Address_London",
         "attributes": {
             "typed_address": "London",
-        },
-        "relationships": {
-            "locations": {
-                "data": {
-                    "id": "Address_London"
-                }
-            }
         }
     },
     "included": [
@@ -19,16 +11,8 @@
             "type": "locations",
             "id": "Address_London",
             "attributes": {
-                "formatted_address": "London, UK",
                 "canonical_address": "London, UK",
-                "canonical_url": "London, United Kingdom",
-                "country": "GB",
-                "coordinates": {
-                },
-                "viewport": {
-                },
-                "bounds": {
-                }
+                "canonical_url": "London, United Kingdom"
             }
         }
     ]
@@ -36,35 +20,18 @@
   "get_dream_destinations": {
       "data": [
           {
-              "type": "dream_destinations",
               "id": "Address_leeds",
               "attributes": {
                   "typed_address": "leeds",
               },
-              "relationships": {
-                  "locations": {
-                      "data": {
-                          "id": "Address_leeds"
-                      }
-                  }
-              }
           },
       ],
       "included": [
           {
-              "type": "locations",
               "id": "Address_leeds",
               "attributes": {
-                  "formatted_address": "Leeds, UK",
                   "canonical_address": "Leeds, United Kingdom",
                   "canonical_url": "Leeds--England--United-Kingdom",
-                  "country": "GB",
-                  "coordinates": {
-                  },
-                  "viewport": {
-                  },
-                  "bounds": {
-                  }
               }
           },
       ]
@@ -75,15 +42,7 @@
         "id": "Address_London",
         "attributes": {
             "typed_address": "London",
-            "created": "2017-09-28 09:38:17"
         },
-        "relationships": {
-            "locations": {
-                "data": {
-                    "id": "Address_London"
-                }
-            }
-        }
     },
     "included": [
         {
@@ -93,21 +52,6 @@
                 "formatted_address": "London, UK",
                 "canonical_address": "London, United Kingdom",
                 "canonical_url": "London--England--United-Kingdom",
-                "country": "GB",
-                "coordinates": {
-                },
-                "viewport": {
-                    "northeast": {
-                    },
-                    "southwest": {
-                    }
-                },
-                "bounds": {
-                    "northeast": {
-                    },
-                    "southwest": {
-                    }
-                }
             }
         }
     ]
