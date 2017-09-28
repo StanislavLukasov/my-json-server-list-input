@@ -25,9 +25,17 @@
 	},
 	"get_dream_destinations": {
 		"data": [{
-			"id": "Address_leeds",
+			"id": "118",
 			"attributes": {
 				"typed_address": "leeds"
+			},
+			"relationships": {
+			    "locations": {
+				"data": {
+				    "type": "locations",
+				    "id": "Address_Leeds"
+				}
+			    }
 			}
 		}],
 		"included": [{
