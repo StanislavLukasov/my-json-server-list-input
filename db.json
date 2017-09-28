@@ -1,13 +1,57 @@
 {
   "dream_destinations": {
     "data": {
-      "type": "dream_destinations",
-      "id": "string",
-      "attributes": {
-        "location": { "id": 4, "name": "Kingston, Jamaica" },
-        "created": "2017-09-13T13:56:53.572Z"
-      }
-    }
+        "type": "dream_destinations",
+        "id": "Address_London",
+        "attributes": {
+            "typed_address": "London",
+            "created": "2017-09-28 09:38:17"
+        },
+        "relationships": {
+            "locations": {
+                "data": {
+                    "type": "locations",
+                    "id": "Address_London"
+                }
+            }
+        }
+    },
+    "included": [
+        {
+            "type": "locations",
+            "id": "Address_London",
+            "attributes": {
+                "formatted_address": "London, UK",
+                "canonical_address": "London, UK",
+                "canonical_url": "London, United Kingdom",
+                "country": "GB",
+                "coordinates": {
+                    "lat": 51.5073509,
+                    "lon": -0.1277583
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 51.6723432,
+                        "lng": 0.148271
+                    },
+                    "southwest": {
+                        "lat": 51.38494009999999,
+                        "lng": -0.3514683
+                    }
+                },
+                "bounds": {
+                    "northeast": {
+                        "lat": 51.6723432,
+                        "lng": 0.148271
+                    },
+                    "southwest": {
+                        "lat": 51.38494009999999,
+                        "lng": -0.3514683
+                    }
+                }
+            }
+        }
+    ]
   },
   "get_dream_destinations": {
       "data": [
@@ -216,15 +260,57 @@
       ]
   },
   "delete_dream_destinations": {
-    "data": [
-      {
+    "data": {
         "type": "dream_destinations",
-        "id": "2",
+        "id": "Address_London",
         "attributes": {
-          "location": "Paris, France",
-          "created": "2017-09-15T12:13:16.592Z"
+            "typed_address": "London",
+            "created": "2017-09-28 09:38:17"
+        },
+        "relationships": {
+            "locations": {
+                "data": {
+                    "type": "locations",
+                    "id": "Address_London"
+                }
+            }
         }
-      }
+    },
+    "included": [
+        {
+            "type": "locations",
+            "id": "Address_London",
+            "attributes": {
+                "formatted_address": "London, UK",
+                "canonical_address": "London, United Kingdom",
+                "canonical_url": "London--England--United-Kingdom",
+                "country": "GB",
+                "coordinates": {
+                    "lat": 51.5073509,
+                    "lon": -0.1277583
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 51.6723432,
+                        "lng": 0.148271
+                    },
+                    "southwest": {
+                        "lat": 51.38494009999999,
+                        "lng": -0.3514683
+                    }
+                },
+                "bounds": {
+                    "northeast": {
+                        "lat": 51.6723432,
+                        "lng": 0.148271
+                    },
+                    "southwest": {
+                        "lat": 51.38494009999999,
+                        "lng": -0.3514683
+                    }
+                }
+            }
+        }
     ]
   },
   "open_travel_anywhere": {
