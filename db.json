@@ -6,12 +6,12 @@
 				"typed_address": "London"
 			},
 			"relationships": {
-			    "locations": {
-				"data": {
-				    "type": "locations",
-				    "id": "Address_London"
+				"locations": {
+					"data": {
+						"type": "locations",
+						"id": "Address_London"
+					}
 				}
-			    }
 			}
 		},
 		"included": [{
@@ -25,26 +25,49 @@
 	},
 	"get_dream_destinations": {
 		"data": [{
-			"id": "118",
-			"attributes": {
-				"typed_address": "leeds"
-			},
-			"relationships": {
-			    "locations": {
-				"data": {
-				    "type": "locations",
-				    "id": "Address_Leeds"
+				"id": "118",
+				"attributes": {
+					"typed_address": "leeds"
+				},
+				"relationships": {
+					"locations": {
+						"data": {
+							"type": "locations",
+							"id": "Address_Leeds"
+						}
+					}
 				}
-			    }
+			},
+			{
+				"id": "119",
+				"attributes": {
+					"typed_address": "london"
+				},
+				"relationships": {
+					"locations": {
+						"data": {
+							"type": "locations",
+							"id": "Address_London"
+						}
+					}
+				}
 			}
-		}],
+		],
 		"included": [{
-			"id": "Address_leeds",
-			"attributes": {
-				"canonical_address": "Leeds, United Kingdom",
-				"canonical_url": "Leeds--England--United-Kingdom"
+				"id": "Address_leeds",
+				"attributes": {
+					"canonical_address": "Leeds, United Kingdom",
+					"canonical_url": "Leeds--England--United-Kingdom"
+				}
+			},
+			{
+				"id": "Address_london",
+				"attributes": {
+					"canonical_address": "London, United Kingdom",
+					"canonical_url": "London--England--United-Kingdom"
+				}
 			}
-		}]
+		]
 	},
 	"delete_dream_destinations": {
 		"data": {
@@ -53,16 +76,7 @@
 			"attributes": {
 				"typed_address": "Leeds"
 			}
-		},
-		"included": [{
-			"type": "locations",
-			"id": "Address_Leeds",
-			"attributes": {
-				"formatted_address": "London, UK",
-				"canonical_address": "London, United Kingdom",
-				"canonical_url": "London--England--United-Kingdom"
-			}
-		}]
+		}
 	},
 	"open_travel_anywhere": {
 		"data": [{
