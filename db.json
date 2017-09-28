@@ -49,14 +49,14 @@
 	"delete_dream_destinations": {
 		"data": {
 			"type": "dream_destinations",
-			"id": "Address_London",
+			"id": "118",
 			"attributes": {
-				"typed_address": "London"
+				"typed_address": "Leeds"
 			}
 		},
 		"included": [{
 			"type": "locations",
-			"id": "Address_London",
+			"id": "Address_Leeds",
 			"attributes": {
 				"formatted_address": "London, UK",
 				"canonical_address": "London, United Kingdom",
