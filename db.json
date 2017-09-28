@@ -10,7 +10,6 @@
     }
   },
   "get_dream_destinations": {
-  {
       "data": [
           {
               "type": "dream_destinations",
@@ -215,7 +214,6 @@
               }
           }
       ]
-  }
   },
   "delete_dream_destinations": {
     "data": [
