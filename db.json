@@ -51,19 +51,40 @@
 						}
 					}
 				}
+			},
+			 {
+				"id": "120",
+				"attributes": {
+					"typed_address": "Brighton"
+				},
+				"relationships": {
+					"locations": {
+						"data": {
+							"type": "locations",
+							"id": "Address_Brighton"
+						}
+					}
+				}
 			}
 		],
 		"included": [{
-				"id": "Address_leeds",
+				"id": "Address_Leeds",
 				"attributes": {
 					"canonical_address": "Leeds, United Kingdom",
 					"canonical_url": "Leeds--England--United-Kingdom"
 				}
 			},
 			{
-				"id": "Address_london",
+				"id": "Address_London",
 				"attributes": {
 					"canonical_address": "London, United Kingdom",
+					"canonical_url": "London--England--United-Kingdom"
+				}
+			},
+			{
+				"id": "Address_Brighton",
+				"attributes": {
+					"canonical_address": "Brighton, United Kingdom",
 					"canonical_url": "London--England--United-Kingdom"
 				}
 			}
